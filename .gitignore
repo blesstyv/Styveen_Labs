@@ -1,19 +1,24 @@
-# ==============================
+# ==================================================
 # STYVEEN LABS
-# ==============================
+# ==================================================
 
 
+# ----------------------
 # FRONTEND
+# ----------------------
 
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
+
 frontend/.env
 frontend/.env.local
 frontend/.env.production
-frontend/.vite/
 
 
+# ----------------------
 # BACKEND
+# ----------------------
 
 backend/.venv/
 backend/venv/
@@ -25,37 +30,54 @@ backend/**/__pycache__/
 *$py.class
 
 backend/.env
-backend/db.sqlite3
 
 backend/media/
 
 
+# ----------------------
+# DATABASE
+# ----------------------
+
+backend/db.sqlite3
+
+
+# ----------------------
 # PYTHON
+# ----------------------
 
 .pytest_cache/
 .mypy_cache/
 
 
+# ----------------------
 # IDE
+# ----------------------
 
 .vscode/
 .idea/
 
 
-# SISTEMA
+# ----------------------
+# WINDOWS / MAC
+# ----------------------
 
-.DS_Store
 Thumbs.db
 desktop.ini
+.DS_Store
 
 
+# ----------------------
 # LOGS
+# ----------------------
 
 *.log
 
 
+# ----------------------
 # ENVIRONMENT
+# ----------------------
 
 .env
 .env.*
+
 !.env.example
